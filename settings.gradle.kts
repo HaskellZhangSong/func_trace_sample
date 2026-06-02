@@ -1,0 +1,13 @@
+pluginManagement {
+    repositories {
+        mavenLocal()        // if installed locally via `./gradlew publishToMavenLocal`
+        gradlePluginPortal()
+    }
+}
+
+plugins {
+    id("org.gradle.toolchains.foojay-resolver-convention") version "1.0.0"
+}
+
+rootProject.name = "func_trace_sample"
+

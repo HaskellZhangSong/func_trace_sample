@@ -3,6 +3,15 @@
   <component name="CopilotDiffPersistence">
     <option name="pendingDiffs">
       <map>
+        <entry key="/Main (snapshot).kt">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="/Main (snapshot).kt" />
+              <option name="originalContent" value="package org.hw&#10;import dev.songzh.function.trace.Trace&#10;@Trace&#10;fun computeFactorial2(n: Long): Long {&#10;    if (n &lt;= 1) return 1L&#10;    return n * computeFactorial2(n - 1)&#10;}&#10;&#10;class Calculator {&#10;    fun add(a : Int, b: Int) : Int {&#10;        return a + b&#10;    }&#10;}&#10;&#10;fun get5() : Int = 5&#10;fun main() {&#10;    val name = &quot;Kotlin&quot;&#10;    println(&quot;Hello, &quot; + name + &quot;!&quot;)&#10;    computeFactorial2(5)&#10;    get5()&#10;    val cal = Calculator()&#10;    val a = cal.add(1,2)&#10;}&#10;" />
+              <option name="updatedContent" value="package org.hw&#10;import dev.songzh.function.trace.Trace&#10;@Trace&#10;fun computeFactorial2(n: Long): Long {&#10;    if (n &lt;= 1) return 1L&#10;    return n * computeFactorial2(n - 1)&#10;}&#10;&#10;class Calculator {&#10;    fun add(a : Int, b: Int) : Int {&#10;        return a + b&#10;    }&#10;}&#10;&#10;fun get5() : Int = 5&#10;fun main() {&#10;    _funTraceBegin(&quot;main&quot;)&#10;    val name = &quot;Kotlin&quot;&#10;    println(&quot;Hello, &quot; + name + &quot;!&quot;)&#10;    computeFactorial2(5)&#10;    get5()&#10;    val cal = Calculator()&#10;    val a = cal.add(1,2)&#10;    _funTraceEnd(&quot;main&quot;)&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
         <entry key="/SimplePluginComponentRegistrar (snapshot).kt">
           <value>
             <PendingDiffInfo>
